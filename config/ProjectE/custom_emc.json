@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "item": "gobber2:gobber2_ingot",
+      "emc": 10754
+    },
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "emc": 34796
+    },
+    {
+      "item": "gobber2:gobber2_ingot_end",
+      "emc": 72188
+    }
+  ]
+}

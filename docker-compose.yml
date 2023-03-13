@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  Weedie-Minecraft-Server:
+    image: itzg/minecraft-server:java17-alpine
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.18.2"
+      TYPE: "FORGE"
+      FORGE_VERSION: "40.2.0"
+      MODPACK_RAM: 12g
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./:/data

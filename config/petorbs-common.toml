@@ -1,0 +1,22 @@
+#Whether tooltips (What does this pet orb do?) will be shown or not.
+tooltips = true
+#Whether the status of the pet orb (disabled/enabled) will be shown as a tooltip or not.
+status = true
+#Whether the valid foods of the pet orb will be shown as a tooltip or not.
+food = true
+#Whether pet orbs need to be fed or not.
+feeding = true
+#Whether potion particles from pet orbs will be shown or not.
+particles = false
+#Whether potion icons in the top right corner from pet orbs will be shown or not.
+icon = false
+#If the player has the potion effect, but only this amount of time or less left (in ticks), the pet orb will trigger anyway. This is to prevent weird side effects, such as night vision flashing. A minimum of 200 ticks (= 10 seconds) is recommended.
+#Range: > 1
+duration = 1200
+#The damage the smite potion effect does.
+#Range: 1 ~ 100
+smiteStrength = 1
+#The damage the bane of arthropods potion effect does.
+#Range: 1 ~ 100
+baneOfArthropodsStrength = 1
+
