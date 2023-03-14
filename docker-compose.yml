@@ -10,7 +10,8 @@ services:
       VERSION: "1.18.2"
       TYPE: "FORGE"
       FORGE_VERSION: "40.2.0"
-      MODPACK_RAM: 12g
+      MEMORY: "12G"
+      MOTD: "WOW, NICE CLOCK"
     tty: true
     stdin_open: true
     restart: unless-stopped
